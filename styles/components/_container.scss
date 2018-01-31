@@ -1,8 +1,8 @@
 .container {
 	width: 100%;
-	max-width: scale-px(980px);
+	max-width: spx(980px);
 	margin: 0 auto;
-	padding: 0 scale-px(48px);
+	padding: 0 spx(48px);
 }
 
 .container--no-padding {
@@ -22,7 +22,7 @@
 
 	width: 100%;
 	margin: 0 auto;
-	padding: scale-px(36px) scale-px(48px);
+	padding: spx(36px) spx(48px);
 	// border: 1px solid red;
 }
 
