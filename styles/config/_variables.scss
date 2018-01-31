@@ -1,0 +1,99 @@
+// ignore this gutter crap
+$gutter: 30px;
+$container-gutter-mobile: $gutter;
+$container-gutter-tablet: 50px;
+// $container-gutter-desktop: 80px;
+$container-gutter-desktop: 200px;
+
+// grid
+$grid-column-count: 12;
+$grid-baseline: 16px;
+
+// page dimensions
+$page-width: 1680px;
+$page-limit: $page-width + ($container-gutter-desktop * 2);
+
+// design sizing
+$base-sizing: 1680px;
+$base-height: 945px;
+
+// Fonts
+$font-header: 'Helvetica Neue', sans-serif;
+$font-body: $font-header;
+$font-size: 16px;
+$line-height: 1.5;
+
+$font-header--weight: bold;
+$font-header--line_height: 1;
+
+// Colors
+$color-white--0: white;
+$color-white--1: #fafafa;
+$color-white--2: #f7f7f7;
+$color-black: #231f20;
+$color-gray--light: #eeeeee;
+$color-gray: #888888;
+$color-blue: #22a4f2; // figma for now
+$color-placeholder: #c9c9c9;
+
+$color-primary: $color-blue;
+// $color-background: $color-white--1;
+$color-background: $color-white--0;
+$color-font: $color-black;
+
+// Timings
+$transition-enter: 125ms;
+$transition-leave: 500ms;
+
+// Custom break point (Min)
+$min-1800: 1800px;
+$min-1440: 1440px;
+$min-1280: 1280px;
+$min-1200: 1200px;
+$min-1080: 1080px;
+$min-1024: 1024px;
+$min-960: 960px;
+$min-840: 840px;
+$min-768: 768px;
+$min-720: 720px;
+$min-640: 640px;
+$min-600: 600px;
+$min-560: 560px;
+$min-540: 540px;
+$min-480: 480px;
+$min-420: 420px;
+$min-375: 375px;
+$min-360: 360px;
+
+// Custom break points (Max)
+$max-1280: 1279px;
+$max-1200: 1199px;
+$max-1080: 1079px;
+$max-1024: 1023px;
+$max-960: 959px;
+$max-840: 839px;
+$max-768: 767px;
+$max-720: 719px;
+$max-640: 639px;
+$max-600: 599px;
+$max-540: 539px;
+$max-480: 479px;
+$max-420: 419px;
+$max-375: 374px;
+$max-360: 359px;
+
+// Predefined breakpoints
+$min-mobile: $min-420;
+$min-tablet: $min-720;
+$min-desktop: 1024px;
+$max-desktop: 1680px;
+
+// Segment
+$segment-padding-mobile: $gutter * 3;
+$segment-padding: 200px; //percentage-based segments spacing
+
+// scale for edge-case wide pages
+// used in :root in base.scss
+$scale: 1;
+$scale-md: 0.9;
+$scale-sm: 0.8;

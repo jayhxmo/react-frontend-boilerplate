@@ -1,0 +1,39 @@
+html {
+	@include responsive-font(16, 24);
+	font-weight: 400;
+}
+
+h1 {
+	margin: 0;
+	font-size: spx(36px);
+	font-weight: bold;
+}
+
+h2 {
+	margin: 0;
+	font-size: spx(24px);
+	font-weight: bold;
+}
+
+h3 {
+	margin: 0;
+	font-size: spx(12px);
+	font-weight: bold;
+	line-height: 1.62;
+}
+
+p {
+	font-size: spx(12px);
+	font-weight: normal;
+	line-height: 1.62;
+	margin: 0 0 spx(8px) 0;
+}
+
+h4 {
+	font-size: spx(10px);
+	font-weight: normal;	
+}
+
+a {
+	text-decoration: none;
+}
